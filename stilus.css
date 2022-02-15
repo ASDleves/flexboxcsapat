@@ -1,0 +1,61 @@
+@charset "utf-8";
+body{
+    background-image: url(képek/szürke.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+main{
+    max-width: 1000px;
+    background-position: center;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+header h1{
+    text-shadow: 2px 2px 5px rgb(63, 61, 61);
+    font-size: 50px;
+    
+}
+nav{
+    height: 100px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul li{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 250px;
+    align-items: center;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+  
